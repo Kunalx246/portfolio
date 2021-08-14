@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    text-align: center;
+    background-color: #ffddcc;  
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.3125rem;
+    padding-top: 20px;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #66BFBF;
+}
+
+h3{
+    color: #11999E;
+    font-size: 1.25rem;
+}
+
+p,.table-lines{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.intro{
+    font-size: 1.875rem;
+    margin-top: 0;
+}
+.top-container{
+    background-color:#EAF9F5;
+    position: relative;
+    padding-top: 70px; 
+}
+
+.top-cloud{
+    position: absolute;
+    right: 15.625rem;
+    top: 50px;
+}
+.computer{
+    width: 27rem;
+    position: relative;
+    top: 120px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+}
+
+.portfolio{
+    position: relative;
+    bottom: 14.375rem;
+    right: 30px;
+}
+
+.portfolio-footer{
+    color: rgb(90, 167, 219);
+    font-size: 2rem;
+}
+
+.My-img{
+    height: 12rem;
+    width: 10rem;
+    border-radius: 50px;
+    border: solid 7px grey;
+    margin: 100px 0 25px;
+}
+
+.profile{
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+table{
+    width: 40%;
+    margin: 0 auto;
+}
+
+hr{
+    width: 100px;
+    border-style: dotted none none;
+    border-width: 8px;
+    color: grey;
+    margin: 50px auto;
+}
+
+.contact-me{
+    width: 80%;
+    margin: 0 auto 0 auto
+}
+
+.bottom-container{
+    background-color: #77f0dc;
+    padding: 1.9rem  0;
+}
+
+.java-img,.html-img,.css-img{
+    height: 3.125rem;
+    width: 3.125rem;
+}
+
+ .btn-to-top{
+    position: fixed;
+    font-size: 30px;
+    right: 100px;
+    bottom: 350px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: whitesmoke;
+    background-color: teal;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    border: none;
+    outline: none;
+ }
+
+ .btn-to-top:active{
+    background-color: rgb(8, 89, 114);
+ }
+
+ .btn-to-bottom{
+    position: fixed;
+    font-size: 30px;
+    right: 100px;
+    bottom: 250px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: whitesmoke;
+    background-color: teal;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    border: none;
+    outline: none;
+ }
+
+ .btn-to-bottom:active{
+    background-color: rgb(8, 89, 114);
+ }
+
+ html{
+     scroll-behavior: smooth;
+ }
+
+ a{
+    margin: 10px 20px;
+}
+
+ .Links{
+    height: 50px;
+    width: 50px;
+}
